@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Gallery from './components/Gallery/Gallery';
@@ -8,8 +9,8 @@ function App() {
     <div>
       <Nav />
       <main>
-        <Gallery />
         <About />
+        <Gallery />
       </main>
     </div>
   );
