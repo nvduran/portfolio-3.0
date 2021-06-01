@@ -5,11 +5,10 @@ export default function Gallery() {
         <div>
             <section>
                 <div class="grid-container" id="work">
-                    <div class="grid-item1"><a href="https://dragoonkite.github.io/iCamp/">iCamp</a></div>
-                    <div class="grid-item2">Cool future project</div>
-                    <div class="grid-item3">Cool future project</div>
-                    <div class="grid-item4">Cool future project</div>
-                    <div class="grid-item5">Cool future project</div>
+                    <div class="grid-item1"><a href="https://dragoonkite.github.io/iCamp/"></a></div>
+                    <div class="grid-item2"></div>
+                    <div class="grid-item3"></div>
+                    <div class="grid-item4"></div>
                     <div class="grid-item-side">Work</div>
                 </div>
             </section>

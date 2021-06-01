@@ -90,27 +90,32 @@ nav ul li{
 
 .grid-item1 {
   
-  background-size: contain;
+  background-image: url('./components/Gallery/ScreenShots/zing1.png');
+  background-size:contain;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 4;
   border: 3px black solid;
+  min-height: 700px;
 }
 
 .grid-item2 {
-  background-color: brown;
+  background-image: url('./components/Gallery/ScreenShots/iCamp1.png');
   border: 3px black solid;
 }
 
 .grid-item3 {
-  background-color: brown;
+  background-image: url('./components/Gallery/ScreenShots/zing2.png');
+  background-position: center;
   border: 3px black solid;
 }
 
 .grid-item4 {
-  background-color: brown;
+  background-image: url('./components/Gallery/ScreenShots/iCamp2.png');
   border: 3px black solid;
+  background-position: center;
+  background-size: 99%;
 }
 
 .grid-item5 {
@@ -148,11 +153,17 @@ nav ul li{
 
 nav{
   margin: 10px;
+  background-color: rgb(49, 49, 49);
 }
 
-nav ul li{
+nav ul li a{
   margin: 0px 40px;
-  font-size: 2em;
+  font-size: 1.8em;
+  color: white;
+}
+
+.bannerName {
+  font-size: 5em;
 }
 
 header h1 {

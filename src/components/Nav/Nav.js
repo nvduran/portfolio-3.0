@@ -3,7 +3,7 @@ import React from 'react'
 export default function Nav() {
     return (
         <div>
-            <h1>Nick Duran</h1>
+            <h1 class = "bannerName">Nick Duran</h1>
             <nav>
                 <ul>
                     <li>
