@@ -1,22 +1,31 @@
 import React from 'react'
 
-export default function Nav() {
+export default function Nav(props) {
+
+    const { setPage,
+        currentPage
+    } = props
+
     return (
         <div>
-            <h1 class = "bannerName">Nick Duran</h1>
+            <h1 class="bannerName">Nick Duran</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#about">About</a>
+                        <span
+                            onClick={() => { setPage('About') }}>About</span>
                     </li>
                     <li>
-                        <a href="#work">Work</a>
+                        <span
+                            onClick={() => { setPage('Gallery') }}>Work</span>
                     </li>
                     <li>
-                        <a href="#contact">Contact Me</a>
+                        <span
+                            onClick={() => { setPage('Contact') }}>Contact</span>
                     </li>
                     <li>
-                        <a href="#resume">Resume</a>
+                        <span
+                            onClick={() => { setPage('Resume') }}>Resume</span>
                     </li>
                 </ul>
             </nav>

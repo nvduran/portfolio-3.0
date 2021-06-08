@@ -5,13 +5,13 @@ import Gallery from './components/Gallery/Gallery';
 import About from './components/About/About';
 
 function App() {
-  const [currentPage, setPage] = useState();
+  const [currentPage, setPage] = useState('About');
   return (
     <div>
-      <Nav />
+      <Nav setPage={setPage} currentPage={currentPage}></Nav>
       <main>
-        <About />
-        <Gallery />
+        <About></About>
+        <Gallery setPage={setPage} currentPage={currentPage}></Gallery>
       </main>
     </div>
   );

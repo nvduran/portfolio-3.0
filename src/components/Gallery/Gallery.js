@@ -1,6 +1,11 @@
 import React from 'react'
 
-export default function Gallery() {
+export default function Gallery(props) {
+
+    const { setPage,
+        currentPage
+    } = props
+
     return (
         <div>
             <section>

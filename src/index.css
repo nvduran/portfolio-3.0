@@ -161,7 +161,11 @@ nav ul li a{
   font-size: 1.8em;
   color: white;
 }
-
+span{
+  margin: 0px 40px;
+  font-size: 1.8em;
+  color: white;
+}
 .bannerName {
   font-size: 5em;
 }
