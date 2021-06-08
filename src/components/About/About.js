@@ -1,6 +1,12 @@
 import React from 'react'
 
-export default function About() {
+export default function About(props) {
+    // const { setPage,
+    //     currentPage
+    // } = props
+    console.log(props)
+    if(props.currentPage==="About"){
+
     return (
         <div>
             <section>
@@ -11,4 +17,8 @@ export default function About() {
             </section>
         </div>
     )
+
+    }else{
+        return null;
+    }
 }

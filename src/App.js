@@ -10,7 +10,7 @@ function App() {
     <div>
       <Nav setPage={setPage} currentPage={currentPage}></Nav>
       <main>
-        <About></About>
+        <About setPage={setPage} currentPage={currentPage}></About>
         <Gallery setPage={setPage} currentPage={currentPage}></Gallery>
       </main>
     </div>

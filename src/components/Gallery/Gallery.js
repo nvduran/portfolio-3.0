@@ -5,6 +5,9 @@ export default function Gallery(props) {
     const { setPage,
         currentPage
     } = props
+    console.log(props);
+
+    if(props.currentPage==="Gallery"){
 
     return (
         <div>
@@ -19,4 +22,7 @@ export default function Gallery(props) {
             </section>
         </div>
     )
+    }else{
+        return null;
+    }
 }
