@@ -23,10 +23,10 @@ export default function Nav(props) {
                         <span
                             onClick={() => { setPage('Contact') }}>Contact</span>
                     </li>
-                    <li>
+                    {/* <li>
                         <span
                             onClick={() => { setPage('Resume') }}>Resume</span>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </div>
