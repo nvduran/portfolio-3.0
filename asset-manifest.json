@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//nvduran.github.io/portfolio-3.0/static/css/main.0295ec9c.chunk.css",
+    "main.js": "//nvduran.github.io/portfolio-3.0/static/js/main.d02c5e11.chunk.js",
+    "main.js.map": "//nvduran.github.io/portfolio-3.0/static/js/main.d02c5e11.chunk.js.map",
+    "runtime-main.js": "//nvduran.github.io/portfolio-3.0/static/js/runtime-main.1cc999b6.js",
+    "runtime-main.js.map": "//nvduran.github.io/portfolio-3.0/static/js/runtime-main.1cc999b6.js.map",
+    "static/js/2.1e4150d8.chunk.js": "//nvduran.github.io/portfolio-3.0/static/js/2.1e4150d8.chunk.js",
+    "static/js/2.1e4150d8.chunk.js.map": "//nvduran.github.io/portfolio-3.0/static/js/2.1e4150d8.chunk.js.map",
+    "static/js/3.15ff31ec.chunk.js": "//nvduran.github.io/portfolio-3.0/static/js/3.15ff31ec.chunk.js",
+    "static/js/3.15ff31ec.chunk.js.map": "//nvduran.github.io/portfolio-3.0/static/js/3.15ff31ec.chunk.js.map",
+    "index.html": "//nvduran.github.io/portfolio-3.0/index.html",
+    "static/css/main.0295ec9c.chunk.css.map": "//nvduran.github.io/portfolio-3.0/static/css/main.0295ec9c.chunk.css.map",
+    "static/js/2.1e4150d8.chunk.js.LICENSE.txt": "//nvduran.github.io/portfolio-3.0/static/js/2.1e4150d8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "//nvduran.github.io/portfolio-3.0/static/media/zing2.9bed9f5b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cc999b6.js",
+    "static/js/2.1e4150d8.chunk.js",
+    "static/css/main.0295ec9c.chunk.css",
+    "static/js/main.d02c5e11.chunk.js"
+  ]
+}
